@@ -27,7 +27,34 @@ dt {
   font-weight: bold;
 }
 
-table {
+table,
+form {
   background-color: #f0f0ef;
-  border: 2px solid;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin: 5px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+input[type="file"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
 }
