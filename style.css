@@ -1,0 +1,38 @@
+body {
+  background-color: #ffffff;
+}
+
+p {
+  color: #000000;
+  text-align: left;
+}
+
+cite {
+  color: #808687;
+  text-align: left;
+}
+
+blockquote {
+  color: #f5a11b;
+  font-style: italic;
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
+}
+
+dt {
+  color: #808687;
+  font-weight: bold;
+}
+
+table {
+  background-color: #f0f0ef;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+}
