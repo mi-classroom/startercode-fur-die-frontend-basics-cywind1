@@ -1,0 +1,60 @@
+body {
+  background-color: #ffffff;
+}
+
+p {
+  color: #000000;
+  text-align: left;
+}
+
+cite {
+  color: #808687;
+  text-align: left;
+}
+
+blockquote {
+  color: #f5a11b;
+  font-style: italic;
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
+}
+
+dt {
+  color: #808687;
+  font-weight: bold;
+}
+
+table,
+form {
+  background-color: #f0f0ef;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin: 5px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+input[type="file"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
