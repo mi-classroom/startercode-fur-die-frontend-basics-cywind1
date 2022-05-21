@@ -195,8 +195,9 @@
         </tr>
       </table>
 
-      <form action="" method="get" class="form-example">
-        <div class="form-example">
+      <fieldset>
+        <legend>Feedback</legend>
+        <form>
           <label for="name">Name</label>
           <input
             type="text"
@@ -205,65 +206,38 @@
             placeholder="des Kommentarautors"
             required
           />
-        </div>
-        <div class="form-example">
-          <label for="email">E-Mail</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Adresse des Autors"
-            required
-          />
-        </div>
-        <div class="form-example">
-          <label for="photo">Profile Foto Upload</label>
-          <input type="file" name="photo" id="photo" required />
-        </div>
-        <div class="form-example">
-          <label for="email">E-Mail</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Adresse des Autors"
-            required
-          />
-        </div>
-        <div class="form-example">
-          <label for="input">Texteingabe</label>
-          <input
-            type="text"
-            name="input"
-            id="input"
-            placeholder="Feld"
-            required
-          />
-        </div>
-        <div class="form-example">
-          <label for="anonymous">Soll der Autorenname in einer späteren Anzeige anonymisiert werden?</label>
-        <label>
-            <input type="checkbox" value="1" />Ja</label>
-        </label> 
-                <label>
-            <input type="checkbox" value="1" />Nein</label>
-        </label> 
-        </div>
-        
-        <div class="form-example">
-          <label for="data-declaration">Bestätigung, dass die Datenschutzerklärung gelesen wurde</label>
-        <label>
-            <input type="checkbox" value="1" />Ja</label>
-        </label>  
-        </div>
 
-        <div class="form-example">
-          <input type="submit" value="Senden" />
-        </div>
-                <div class="form-example">
-          <input type="reset" value="Zurücksetzen" />
-        </div>
-      </form>
+          <label for="email">E-Mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Adresse des Autors"
+            required
+          />
+
+          <label for="upload">Upload</label>
+          <input type="file" name="img" id="img" />
+
+          <label for="input">Texteingabe</label>
+          <input type="text" name="input" id="input" required />
+
+          <input type="checkbox" name="anonym" id="anonym" />
+          <label for="anonym">Anonymous Name</label>
+
+          <input type="checkbox" name="datenschutz" id="datenschutz" required />
+          <label for="datenschutz"
+            >Ich akzeptiere die <a href="url">AGB</a> und
+            <a href="url">Datenschutzerklärung</a></label
+          >
+
+          <label for="submit">Senden</label>
+          <input type="submit" />
+
+          <label for="reset">Zurücksetzen</label>
+          <input type="reset" />
+        </form>
+      </fieldset>
     </main>
   </body>
 </html>
