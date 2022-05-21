@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "IMBPlexSans";
+  src: url("../fonts/ibm-plex/IBMPlexSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "IMBPlexSans";
+  src: url("../fonts/ibm-plex/IBMPlexSans-Italic.otf");
+}
+
+@font-face {
+  font-family: "IMBPlexSans";
+  src: url("../fonts/ibm-plex/IBMPlexSans-Bold.otf");
+}
+
+@font-face {
+  font-family: "IMBPlexSerif";
+  src: url("../fonts/ibm-plex/IBMPlexSerif-Regular.otf");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  src: url("../fonts/ibm-plex/IBMPlexSerif-Italic.otf");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  src: url("../fonts/ibm-plex/IBMPlexSerif-Bold.otf");
+}
