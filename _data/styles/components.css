@@ -1,0 +1,20 @@
+#input {
+  height: 200px;
+  width: 500px;
+  display: block;
+}
+
+input[type="file"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+
+/* failed
+  .file, .submit, .reset {
+  cursor: pointer;
+} */
+
+.checkbox {
+  display: inline-block;
+}

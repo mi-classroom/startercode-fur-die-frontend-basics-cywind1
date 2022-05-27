@@ -202,44 +202,53 @@
       <fieldset>
         <legend>Feedback</legend>
         <form>
-          <label for="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="des Kommentarautors"
-            required
-          />
+          <label for="name"
+            >Name
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="des Kommentarautors"
+              required
+          /></label>
 
-          <label for="email">E-Mail</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Adresse des Autors"
-            required
-          />
+          <label for="email"
+            >E-Mail
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Adresse des Autors"
+              required
+          /></label>
 
-          <label for="upload">Upload</label>
-          <input type="file" name="img" id="img" />
+          <label for="upload"
+            >Upload <input type="file" name="img" id="img"
+          /></label>
 
-          <label for="input">Texteingabe</label>
-          <input type="text" name="input" id="input" required />
+          <label for="input"
+            >Texteingabe <input type="text" name="input" id="input" required
+          /></label>
 
-          <input type="checkbox" name="anonym" id="anonym" />
-          <label for="anonym">Anonymous Name</label>
+          <label for="anonym"
+            ><input type="checkbox" name="anonym" id="anonym" /> Anonymous
+            Name</label
+          >
 
-          <input type="checkbox" name="datenschutz" id="datenschutz" required />
           <label for="datenschutz"
-            >Ich akzeptiere die <a href="url">AGB</a> und
+            ><input
+              type="checkbox"
+              name="datenschutz"
+              id="datenschutz"
+              required
+            />
+            Ich akzeptiere die <a href="url">AGB</a> und
             <a href="url">Datenschutzerklärung</a></label
           >
 
-          <label for="submit">Senden</label>
-          <input type="submit" />
+          <label for="submit"><input type="submit" /></label>
 
-          <label for="reset">Zurücksetzen</label>
-          <input type="reset" />
+          <label for="reset"><input type="reset" /></label>
         </form>
       </fieldset>
     </main>

@@ -1,20 +1,21 @@
 body {
   font-family: "IMBPlexSans", "IBMPlexSerif";
-  background-color: #ffffff;
+  background-color: var(--lightest);
+  margin: var(--l);
 }
 
 p {
-  color: #000000;
+  color: var(--darkest);
   text-align: left;
 }
 
 cite {
-  color: #808687;
+  color: var(--lighter);
   text-align: left;
 }
 
 blockquote {
-  color: #f5a11b;
+  color: var(--light);
   font-style: italic;
   font-weight: bold;
 }
@@ -24,16 +25,16 @@ span {
 }
 
 dt {
-  color: #808687;
+  color: var(--lighter);
   font-weight: bold;
 }
 
 table,
 form {
-  background-color: #f0f0ef;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid;
+  background-color: var(--lighterer);
+  padding: var(--l);
+  margin: var(--l);
+  border: var(--xxxs) solid;
 }
 
 form.form-example {
@@ -44,20 +45,12 @@ div.form-example {
   display: table-row;
 }
 
-label,
 input {
   display: table-cell;
-  margin: 5px;
+  margin: var(--m);
 }
 
-#input {
-  height: 200px;
-  width: 500px;
+label {
   display: block;
-}
-
-input[type="file"],
-input[type="submit"],
-input[type="reset"] {
-  cursor: pointer;
+  margin: var(--xxxs);
 }
