@@ -45,11 +45,6 @@ div.form-example {
   display: table-row;
 }
 
-input {
-  display: table-cell;
-  margin: var(--m);
-}
-
 label {
   display: block;
   margin: var(--xxxs);
